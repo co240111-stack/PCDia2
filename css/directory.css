@@ -1,0 +1,57 @@
+/* --- CSS/DIRECTORY.CSS --- */
+.directory-header-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search-input {
+    width: 100%;
+    max-width: 400px;
+    padding: 8px 12px;
+    font-family: var(--font-main);
+    font-size: 13px;
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-sharp);
+}
+
+.table-responsive {
+    width: 100%;
+    overflow-x: auto;
+}
+
+.data-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+    font-size: 13px;
+}
+
+.data-table th, 
+.data-table td {
+    padding: 12px 14px;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.data-table th {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 11px;
+    letter-spacing: 0.05em;
+    color: var(--text-muted);
+    background-color: #FAFAFC;
+}
+
+.data-table tbody tr:hover {
+    background-color: rgba(0, 32, 96, 0.02);
+}
+
+.table-actions {
+    display: flex;
+    gap: 6px;
+}
+
+.table-actions button {
+    padding: 4px 8px;
+    font-size: 11px;
+}
